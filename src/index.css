@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Skyway Enterprise Theme Colors */
+    --background: 210 33% 99%;
+    --foreground: 210 40% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 10%;
+
+    /* Sky blue as primary color */
+    --primary: 210 80% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Slightly lighter blue for secondary */
+    --secondary: 210 60% 95%;
+    --secondary-foreground: 210 80% 30%;
+
+    --muted: 210 40% 94%;
+    --muted-foreground: 210 40% 40%;
+
+    --accent: 200 80% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 40% 90%;
+    --input: 210 40% 90%;
+    --ring: 210 80% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 210 33% 99%;
+    --sidebar-foreground: 210 40% 20%;
+    --sidebar-primary: 210 80% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 60% 95%;
+    --sidebar-accent-foreground: 210 80% 30%;
+    --sidebar-border: 210 40% 90%;
+    --sidebar-ring: 210 80% 50%;
+  }
+
+  .dark {
+    --background: 210 30% 12%;
+    --foreground: 210 20% 98%;
+
+    --card: 210 30% 15%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 210 30% 15%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 210 80% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 30% 20%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 210 30% 20%;
+    --muted-foreground: 210 20% 60%;
+
+    --accent: 200 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 30% 25%;
+    --input: 210 30% 25%;
+    --ring: 210 80% 60%;
+    
+    --sidebar-background: 210 30% 12%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 210 80% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 30% 20%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 210 30% 25%;
+    --sidebar-ring: 210 80% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
