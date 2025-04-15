@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -105,7 +104,7 @@ const Navbar = () => {
             className="btn-primary w-full justify-center mt-4"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Get in Touch
+            Contact Us
           </a>
         </div>
       </div>

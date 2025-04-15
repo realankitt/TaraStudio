@@ -39,7 +39,7 @@ const Footer = () => {
                 <a href="#process" className="text-neutral-600 hover:text-brand transition-colors">Process</a>
               </li>
               <li>
-                <a href="#contact" className="text-neutral-600 hover:text-brand transition-colors">Contact</a>
+                <a href="#contact" className="text-neutral-600 hover:text-brand transition-colors">Contact Us</a>
               </li>
             </ul>
           </div>
