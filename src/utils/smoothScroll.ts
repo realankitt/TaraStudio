@@ -1,4 +1,3 @@
-
 /**
  * Smooth scroll utility for enhancing the scrolling experience
  * @param targetId - ID of the element to scroll to (without #)
@@ -56,3 +55,7 @@ export const initSmoothScrolling = (): void => {
     smoothScrollTo(targetId);
   });
 };
+
+html {
+  scroll-behavior: smooth;
+}
