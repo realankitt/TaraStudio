@@ -1,9 +1,10 @@
+
 /**
  * Smooth scroll utility for enhancing the scrolling experience
  * @param targetId - ID of the element to scroll to (without #)
  * @param duration - Duration of the scroll animation in milliseconds
  */
-export const smoothScrollTo = (targetId: string, duration = 1000): void => {
+export const smoothScrollTo = (targetId: string, duration = 300): void => {
   const target = document.getElementById(targetId);
   if (!target) return;
 
@@ -25,6 +26,7 @@ export const smoothScrollTo = (targetId: string, duration = 1000): void => {
     }
   }
 
+  // Easing function for smooth acceleration and deceleration
   function easeInOutCubic(t: number): number {
     return t < 0.5 
       ? 4 * t * t * t 

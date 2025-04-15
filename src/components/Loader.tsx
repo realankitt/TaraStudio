@@ -5,11 +5,11 @@ const Loader = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate resources loading
+    // Reduce timeout duration for faster loading
     const timer = setTimeout(() => {
       setIsLoading(false);
       document.body.classList.add('loaded');
-    }, 1200);
+    }, 800);
 
     return () => {
       clearTimeout(timer);
