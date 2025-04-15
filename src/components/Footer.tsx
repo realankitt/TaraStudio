@@ -90,12 +90,12 @@ const Footer = () => {
           {/* Column 4 - Contact */}
           <div>
             <h4 className="font-semibold mb-4">Get in Touch</h4>
-            <a href="mailto:hello@company.com" className="text-link text-neutral-600 hover:text-brand">
-              hello@company.com
+            <a href="mailto:howdy@tarastudio.in" className="text-link text-neutral-600 hover:text-brand">
+            howdy@tarastudio.in
             </a>
             <p className="mt-6 text-neutral-600">
-              123 Design Street<br />
-              Creative City, CA 90210
+            New Indrapuri, Krishna nagar<br />
+            Lucknow 226023
             </p>
           </div>
         </div>
