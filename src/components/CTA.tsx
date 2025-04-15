@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import AnimatedText from "./AnimatedText";
 import ScrollReveal from "./ScrollReveal";
@@ -34,12 +33,13 @@ const CTA = () => {
           
           <ScrollReveal delay={400}>
             <a 
-              href="#contact" 
+              href="https://example.com" // Replace with your desired URL
+              target="_blank" // Optional: Opens the link in a new tab
+              rel="noopener noreferrer" // Optional: Improves security when using target="_blank"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white 
               bg-brand hover:bg-brand/90 transition-colors duration-300 rounded-md group"
             >
               Start a conversation
-              <ArrowRight className="ml-2 transform translate-x-0 transition-transform duration-300 group-hover:translate-x-2" size={20} />
             </a>
           </ScrollReveal>
         </div>
