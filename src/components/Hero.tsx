@@ -5,8 +5,6 @@ import ScrollReveal from "./ScrollReveal";
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center relative overflow-hidden bg-white">
-      {/* Remove background logo overlay */}
-      
       {/* Hero Content */}
       <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
@@ -15,12 +13,12 @@ const Hero = () => {
             <ScrollReveal delay={200} className="mb-3">
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-brand/10 text-brand text-sm font-medium">
                 <span className="w-2 h-2 rounded-full bg-brand mr-2"></span>
-                Web Design & Branding
+                Web Design & Branding Studio
               </div>
             </ScrollReveal>
             
             <AnimatedText 
-              text="We craft digital experiences that elevate human potential."
+              text="Crafting exceptional digital experiences through design and branding."
               className="mb-6"
               as="h1"
               wordClass="heading-xl leading-[1.1]"
@@ -28,9 +26,9 @@ const Hero = () => {
             
             <ScrollReveal delay={500} className="max-w-2xl mx-auto mb-10">
               <p className="text-lg md:text-xl text-neutral-600 leading-relaxed text-balance">
-                Founded in 2023, we are a team of 8 digital specialists who combine striking design 
-                with thoughtful storytelling to create meaningful connections between your brand 
-                and your audience.
+                Founded in 2023, we are a team of 8 specialists focused exclusively on 
+                web design and branding, creating meaningful digital identities that 
+                elevate your brand's potential.
               </p>
             </ScrollReveal>
             
