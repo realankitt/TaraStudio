@@ -25,7 +25,6 @@ export const smoothScrollTo = (targetId: string, duration = 1000): void => {
     }
   }
 
-  // Easing function for smooth acceleration and deceleration
   function easeInOutCubic(t: number): number {
     return t < 0.5 
       ? 4 * t * t * t 
@@ -55,7 +54,3 @@ export const initSmoothScrolling = (): void => {
     smoothScrollTo(targetId);
   });
 };
-
-html {
-  scroll-behavior: smooth;
-}
