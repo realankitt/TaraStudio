@@ -33,7 +33,7 @@ const CTA = () => {
           
           <ScrollReveal delay={400}>
             <a 
-              href="https://example.com" // Replace with your desired URL
+              href="https://form.typeform.com/to/hkCisRic" // Replace with your desired URL
               target="_blank" // Optional: Opens the link in a new tab
               rel="noopener noreferrer" // Optional: Improves security when using target="_blank"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white 
