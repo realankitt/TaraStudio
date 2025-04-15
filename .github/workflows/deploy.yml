@@ -3,7 +3,7 @@ name: Deploy Vite Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # change to your default branch if needed
+      - testing  # change to your default branch if needed
 
 permissions:
   contents: read
