@@ -28,7 +28,11 @@ const Navbar = () => {
             href="/" 
             className="text-xl font-bold tracking-tight hover:opacity-80 transition-opacity"
           >
-            Company
+            <img 
+              src="/lovable-uploads/76f4a780-3e6c-4778-b6f1-1ebdd7d32af5.png" 
+              alt="TARA Logo" 
+              className="h-10 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}

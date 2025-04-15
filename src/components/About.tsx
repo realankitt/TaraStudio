@@ -30,7 +30,7 @@ const About = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <ScrollReveal delay={200} className="text-lg leading-relaxed text-neutral-600">
                   <p className="mb-4">
-                    Founded in 2020, we are a collective of strategists, designers, developers, and storytellers 
+                    Founded in 2023, we are a collective of strategists, designers, developers, and storytellers 
                     who share a passion for creating exceptional digital experiences that make an impact.
                   </p>
                   <p>
@@ -41,8 +41,8 @@ const About = () => {
                 
                 <ScrollReveal delay={300} className="text-lg leading-relaxed text-neutral-600">
                   <p className="mb-4">
-                    We don't just build websites and applications—we create experiences that resonate with 
-                    your audience and drive meaningful results for your business.
+                    We specialize exclusively in web design and branding, focusing on creating cohesive digital 
+                    identities that resonate with your audience and drive meaningful results.
                   </p>
                   <p>
                     Our work is characterized by thoughtful strategy, bold design, and meticulous execution, 
@@ -53,18 +53,18 @@ const About = () => {
               
               <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
                 <ScrollReveal delay={400} className="px-6 py-10 bg-neutral-50 rounded-lg">
-                  <div className="text-4xl font-bold text-brand mb-2">35+</div>
-                  <p className="text-neutral-600">Clients worldwide</p>
+                  <div className="text-4xl font-bold text-brand mb-2">2023</div>
+                  <p className="text-neutral-600">Year founded</p>
                 </ScrollReveal>
                 
                 <ScrollReveal delay={500} className="px-6 py-10 bg-neutral-50 rounded-lg">
-                  <div className="text-4xl font-bold text-brand mb-2">120+</div>
-                  <p className="text-neutral-600">Projects completed</p>
+                  <div className="text-4xl font-bold text-brand mb-2">8</div>
+                  <p className="text-neutral-600">Team members</p>
                 </ScrollReveal>
                 
                 <ScrollReveal delay={600} className="px-6 py-10 bg-neutral-50 rounded-lg">
-                  <div className="text-4xl font-bold text-brand mb-2">12</div>
-                  <p className="text-neutral-600">Team members</p>
+                  <div className="text-4xl font-bold text-brand mb-2">100%</div>
+                  <p className="text-neutral-600">Client satisfaction</p>
                 </ScrollReveal>
               </div>
             </ParallaxSection>
