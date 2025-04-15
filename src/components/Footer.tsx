@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { ArrowUpRight } from "lucide-react";
 
 const Footer = () => {
@@ -10,8 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Column 1 - Logo and Info */}
           <div className="md:col-span-1">
-            <a href="/" className="text-xl font-bold tracking-tight hover:opacity-80 transition-opacity">
-              Company
+            <a href="/" className="block hover:opacity-80 transition-opacity">
+              <img 
+                src="/lovable-uploads/76f4a780-3e6c-4778-b6f1-1ebdd7d32af5.png" 
+                alt="TARA Logo" 
+                className="h-10 w-auto"
+              />
             </a>
             <p className="mt-4 text-neutral-600 max-w-xs">
               Creating exceptional digital experiences that elevate human potential.
