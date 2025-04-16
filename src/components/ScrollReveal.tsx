@@ -1,3 +1,4 @@
+
 import React, { useRef, useEffect, useState } from "react";
 
 interface ScrollRevealProps {
@@ -37,7 +38,7 @@ const ScrollReveal: React.FC<ScrollRevealProps> = ({
       transform: `translate${direction === "left" || direction === "right" ? "X" : "Y"}(${
         direction === "down" || direction === "right" ? "-" : ""
       }${distance})`,
-      transition: `opacity 0.4s ease, transform 0.4s ease`, // Reduced duration
+      transition: `opacity 0.6s ease, transform 0.6s ease`,
       transitionDelay: `${delay}ms`,
       willChange: "opacity, transform"
     };

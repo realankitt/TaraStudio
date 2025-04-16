@@ -4,7 +4,7 @@
  * @param targetId - ID of the element to scroll to (without #)
  * @param duration - Duration of the scroll animation in milliseconds
  */
-export const smoothScrollTo = (targetId: string, duration = 300): void => {
+export const smoothScrollTo = (targetId: string, duration = 1000): void => {
   const target = document.getElementById(targetId);
   if (!target) return;
 

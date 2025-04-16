@@ -15,18 +15,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault();
-    const element = document.getElementById(id);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80,
-        behavior: 'smooth'
-      });
-      setMobileMenuOpen(false);
-    }
-  };
-
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -49,19 +37,19 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" onClick={(e) => handleNavClick(e, 'about')} className="text-link text-sm font-medium">
+            <a href="#about" className="text-link text-sm font-medium">
               About
             </a>
-            <a href="#services" onClick={(e) => handleNavClick(e, 'services')} className="text-link text-sm font-medium">
+            <a href="#services" className="text-link text-sm font-medium">
               Services
             </a>
-            <a href="#work" onClick={(e) => handleNavClick(e, 'work')} className="text-link text-sm font-medium">
+            <a href="#work" className="text-link text-sm font-medium">
               Work
             </a>
-            <a href="#process" onClick={(e) => handleNavClick(e, 'process')} className="text-link text-sm font-medium">
+            <a href="#process" className="text-link text-sm font-medium">
               Process
             </a>
-            <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')} className="btn-primary">
+            <a href="#contact" className="btn-primary">
               Get in Touch
             </a>
           </nav>
@@ -87,50 +75,35 @@ const Navbar = () => {
           <a 
             href="#about" 
             className="text-lg font-medium py-2"
-            onClick={(e) => {
-              handleNavClick(e, 'about');
-              setMobileMenuOpen(false);
-            }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             About
           </a>
           <a 
             href="#services" 
             className="text-lg font-medium py-2"
-            onClick={(e) => {
-              handleNavClick(e, 'services');
-              setMobileMenuOpen(false);
-            }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             Services
           </a>
           <a 
             href="#work" 
             className="text-lg font-medium py-2"
-            onClick={(e) => {
-              handleNavClick(e, 'work');
-              setMobileMenuOpen(false);
-            }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             Work
           </a>
           <a 
             href="#process" 
             className="text-lg font-medium py-2"
-            onClick={(e) => {
-              handleNavClick(e, 'process');
-              setMobileMenuOpen(false);
-            }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             Process
           </a>
           <a 
             href="#contact" 
             className="btn-primary w-full justify-center mt-4"
-            onClick={(e) => {
-              handleNavClick(e, 'contact');
-              setMobileMenuOpen(false);
-            }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             Get in Touch
           </a>

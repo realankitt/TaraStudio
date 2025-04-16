@@ -1,3 +1,4 @@
+
 import { ArrowRight } from "lucide-react";
 import AnimatedText from "./AnimatedText";
 import ScrollReveal from "./ScrollReveal";
@@ -33,9 +34,7 @@ const CTA = () => {
           
           <ScrollReveal delay={400}>
             <a 
-              href="https://form.typeform.com/to/hkCisRic" // Updated with the Typeform link
-              target="_blank" // Opens the link in a new tab
-              rel="noopener noreferrer" // Improves security when using target="_blank"
+              href="#contact" 
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white 
               bg-brand hover:bg-brand/90 transition-colors duration-300 rounded-md group"
             >

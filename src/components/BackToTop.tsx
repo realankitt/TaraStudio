@@ -1,9 +1,17 @@
+
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
-import { debounce } from "lodash";
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
+
+  const toggleVisibility = () => {
+    if (window.scrollY > 500) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -13,14 +21,6 @@ const BackToTop = () => {
   };
 
   useEffect(() => {
-    const toggleVisibility = debounce(() => {
-      if (window.scrollY > 500) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    }, 100);
-
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
