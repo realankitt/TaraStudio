@@ -50,7 +50,7 @@ const Hero = () => {
             <ScrollReveal delay={400}>
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/lovable-uploads/044f2d6d-9718-442c-afd8-40d269a5072d.png" 
+                  src="\images\Main_landing_page.png" 
                   alt="TARA Studio" 
                   className="w-full h-auto object-cover"
                 />
