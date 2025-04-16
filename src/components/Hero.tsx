@@ -1,4 +1,3 @@
-
 import AnimatedText from "./AnimatedText";
 import ScrollReveal from "./ScrollReveal";
 
